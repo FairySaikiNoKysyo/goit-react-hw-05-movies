@@ -8,7 +8,7 @@ import { Loader } from "components/Loader/Loader";
 import { Container, DetailsLink, DetailsList } from "./MovieDetails.styled";
 
 const MovieDetails =()=>{
-const {movieId} = useParams;
+const {movieId} = useParams();
 const [loading, setLoading] = useState(false);    
 const [selectedMovie, setSelectedMovie] = useState({});
 const location = useLocation;
