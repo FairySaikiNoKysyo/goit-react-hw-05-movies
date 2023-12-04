@@ -11,7 +11,7 @@ const MovieDetails =()=>{
 const {movieId} = useParams();
 const [loading, setLoading] = useState(false);    
 const [selectedMovie, setSelectedMovie] = useState({});
-const location = useLocation;
+const location = useLocation();
 
 
 

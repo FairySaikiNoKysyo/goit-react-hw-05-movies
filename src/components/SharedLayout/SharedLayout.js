@@ -4,7 +4,7 @@ import { Toaster } from 'react-hot-toast';
 import { Header, LinkPage } from "./SharedLayout.styled";
 import { Loader } from "components/Loader/Loader";
 
-const SharedLayout = () => {
+export const SharedLayout = () => {
     return(
         <>
             <Header>
